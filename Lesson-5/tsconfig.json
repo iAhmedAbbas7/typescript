@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // FILE LAYOUT
+    "rootDir": "./src",
+    "outDir": "./build/js",
+    // ENVIRONMENT SETTINGS
+    "module": "commonjs",
+    "target": "es2016",
+    "types": [],
+    // STRICTER TYPE-CHECKING OPTIONS
+    "noEmitOnError": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    // RECOMMENDED OPTIONS
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "auto",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
